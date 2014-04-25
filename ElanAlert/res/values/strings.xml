@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Elan Alert</string>
+    <string name="title_section3">Settings</string>
+    <string name="title_section2">Receiver</string>
+    <string name="title_section1">Sender</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_elan_alert">Elan Alert</string>
+    <string name="key1">1</string>
+	<string name="key2">2</string>
+	<string name="key3">3</string>
+	<string name="key4">4</string>
+	<string name="key5">5</string>
+	<string name="key6">6</string>
+	<string name="key7">7</string>
+	<string name="key8">8</string>
+	<string name="key9">9</string>
+	<string name="key0">0</string>
+	<string name="keyC">C</string>
+	<string name="keyS">S</string>
+
+	<string name="button_save">SAVE</string>
+	
+	<string name="setting_pause_time">PAUSE_TIME</string>
+	<string name="label_pause_time">refresh time in seconds</string>
+	<string name="default_pause_time">10</string>
+	
+	<string name="setting_host">HOST</string>
+	<string name="default_host">http://song.elan-aachen.de/</string>
+	<string name="label_host">host</string>
+	
+	<string name="setting_set_link">SET_LINK</string>
+	<string name="default_set_link">set_app.php</string>
+	<string name="label_link_set">link (set)</string>
+	
+	<string name="setting_get_link">GET_LINK</string>
+	<string name="default_get_link">get_app_title.php</string>
+	<string name="label_get_link">link (get)</string>
+	
+	<string name="setting_user">USER</string>
+	<string name="default_user">elan</string>
+	<string name="label_user">user</string>
+	
+	<string name="setting_pass">PASS</string>
+	<string name="default_pass">secret</string>
+	<string name="label_pass">pass</string>
+
+	<string name="setting_link_settings">SETTINGS_LINK</string>
+	<string name="default_link_settings">settings_app.php</string>
+	<string name="label_link_settings">link (settings)</string>
+	
+
+</resources>

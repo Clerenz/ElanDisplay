@@ -1,0 +1,38 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ElanAlert">
+
+    <!--
+    This title strip will display the currently visible page title, as well as the page
+    titles for adjacent pages.
+    -->
+
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#33b5e5"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="#fff" />
+    
+    <fragment android:name="de.clemensloos.elan.alert.SenderFragment"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:id="@+id/sender_fragment" />
+
+    <fragment android:name="de.clemensloos.elan.alert.ReceiverFragment"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:id="@+id/receiver_fragment" />
+    
+    <fragment android:name="de.clemensloos.elan.alert.SettingsFragment"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:id="@+id/settings_fragment" />
+    
+</android.support.v4.view.ViewPager>
